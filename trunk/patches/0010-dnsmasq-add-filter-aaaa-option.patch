@@ -23,7 +23,7 @@ Signed-off-by: Chuck <fanck0605@qq.com>
  	option interface	lan
 --- a/package/network/services/dnsmasq/files/dnsmasq.init
 +++ b/package/network/services/dnsmasq/files/dnsmasq.init
-@@ -921,6 +921,8 @@ dnsmasq_start()
+@@ -932,6 +932,8 @@ dnsmasq_start()
  	append_bool "$cfg" rapidcommit "--dhcp-rapid-commit"
  	append_bool "$cfg" scriptarp "--script-arp"
  

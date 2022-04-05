@@ -8,10 +8,10 @@ Signed-off-by: Chuck <fanck0605@qq.com>
 ---
  ...d-model-name-in-proc-cpuinfo-for-64b.patch | 30 +++++++++++++++++++
  1 file changed, 30 insertions(+)
- create mode 100644 target/linux/generic/hack-5.4/312-arm64-cpuinfo-Add-model-name-in-proc-cpuinfo-for-64b.patch
+ create mode 100644 target/linux/generic/hack-5.10/312-arm64-cpuinfo-Add-model-name-in-proc-cpuinfo-for-64b.patch
 
 --- /dev/null
-+++ b/target/linux/generic/hack-5.4/312-arm64-cpuinfo-Add-model-name-in-proc-cpuinfo-for-64b.patch
++++ b/target/linux/generic/hack-5.10/312-arm64-cpuinfo-Add-model-name-in-proc-cpuinfo-for-64b.patch
 @@ -0,0 +1,30 @@
 +From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 +From: Sumit Gupta <sumitg@nvidia.com>

@@ -11,7 +11,7 @@ Signed-off-by: Chuck <fanck0605@qq.com>
 
 --- a/modules/luci-base/po/zh_Hans/base.po
 +++ b/modules/luci-base/po/zh_Hans/base.po
-@@ -531,6 +531,12 @@ msgstr "额外的 HOSTS 文件"
+@@ -548,6 +548,12 @@ msgstr "额外的 HOSTS 文件"
  msgid "Additional servers file"
  msgstr "额外的 SERVERS 文件"
  
@@ -26,9 +26,9 @@ Signed-off-by: Chuck <fanck0605@qq.com>
  #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:36
 --- a/modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js
 +++ b/modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js
-@@ -288,6 +288,11 @@ return view.extend({
- 		s.taboption('files', form.DynamicList, 'addnhosts',
- 			_('Additional Hosts files')).optional = true;
+@@ -368,6 +368,11 @@ return view.extend({
+ 		o.optional = true;
+ 		o.placeholder = '/etc/dnsmasq.hosts';
  
 +		o = s.taboption('advanced', form.Flag, 'filter_aaaa',
 +			_('Filter IPv6'),
@@ -37,4 +37,4 @@ Signed-off-by: Chuck <fanck0605@qq.com>
 +
  		o = s.taboption('advanced', form.Flag, 'quietdhcp',
  			_('Suppress logging'),
- 			_('Suppress logging of the routine operation of these protocols'));
+ 			_('Suppress logging of the routine operation for the DHCP protocol.'));

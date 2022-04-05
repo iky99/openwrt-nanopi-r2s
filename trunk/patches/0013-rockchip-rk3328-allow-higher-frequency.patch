@@ -7,10 +7,10 @@ Signed-off-by: Chuck <fanck0605@qq.com>
 ---
  ...ip-add-more-cpu-operating-points-for.patch | 39 +++++++++++++++++++
  1 file changed, 39 insertions(+)
- create mode 100644 target/linux/rockchip/patches-5.4/991-arm64-dts-rockchip-add-more-cpu-operating-points-for.patch
+ create mode 100644 target/linux/rockchip/patches-5.10/991-arm64-dts-rockchip-add-more-cpu-operating-points-for.patch
 
 --- /dev/null
-+++ b/target/linux/rockchip/patches-5.4/991-arm64-dts-rockchip-add-more-cpu-operating-points-for.patch
++++ b/target/linux/rockchip/patches-5.10/991-arm64-dts-rockchip-add-more-cpu-operating-points-for.patch
 @@ -0,0 +1,39 @@
 +From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 +From: "Leonidas P. Papadakos" <papadakospan@gmail.com>
